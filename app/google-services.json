@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "817317453086",
+    "firebase_url": "https://petcare-5083f.firebaseio.com",
+    "project_id": "petcare-5083f",
+    "storage_bucket": "petcare-5083f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817317453086:android:a127b97b85f24a41",
+        "android_client_info": {
+          "package_name": "com.example.dell.petcare2019"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "817317453086-qs7ugg1bnosefnvoov612eb5j9rprvnn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dell.petcare2019",
+            "certificate_hash": "92bca4459d61769a87a5a6ff1e9c44155375ae5c"
+          }
+        },
+        {
+          "client_id": "817317453086-js9p45v4984jlq0gmkti7uk1pf0f27os.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8r-NaCfF8ycsXjAt15sKvFeo9D95b1Qc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "817317453086-js9p45v4984jlq0gmkti7uk1pf0f27os.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

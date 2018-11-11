@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PET CARE"
+        android:textSize="36dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold" />
+    <ImageView
+        android:background="@drawable/vat"
+        android:layout_width="250dp"
+        android:layout_height="250dp" />
+
+
+
+    <EditText
+        android:id="@+id/editTextUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter User"
+        android:inputType="textPersonName" />
+
+    <EditText
+
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter PassWord"
+        android:inputType="textPassword" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_marginRight="20dp"
+            android:id="@+id/buttonSignIn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Registration" />
+        <Button
+
+            android:id="@+id/buttonLogin"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="LoGin" />
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/buttonExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit" />
+
+
+
+
+</LinearLayout>
